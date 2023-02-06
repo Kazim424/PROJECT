@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  /* background-image: url(/assets/images/image1.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/assets/images/image1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 60px;
+  margin-top: 55px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+/* navbarlist */
+.navbar-list-item {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-style: normal;
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffc233;
+  font-family: "Tienne", serif;
+}
+
+.navbar-list-item li a {
+  display: flex;
+  align-items: center;
+  font-family: "Tienne", serif;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  gap: 63px;
+  line-height: 22px;
+  color: #ffc233;
+}
+
+.button-navbar {
+  padding: 10px 30px;
+  background-color: #ff505f;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+ /* hero section */
+.hero-section {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: bold;
+  max-width: 1154;
+}
+
+.main-heading {
+  font-family: "Tienne", serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #ffc233;
+  max-width: 1154px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.main-heading h1 {
+  font-family: "Tienne", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 90px;
+  color: #ffc233;
+  margin-left: 235px;
+  margin-right: 200px;
+}
+
+/* middle button */
+
+ .button{
+  width: 230px;
+  max-width: 1154px;
+  background-color: #ff505f;
+  border: none;
+  font-style: normal;
+  font-size: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 38px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-left: 43%;
+  margin-right: 50%;
+  line-height: 30px;
+
+ }
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
