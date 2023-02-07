@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+  }
+  
+  .grow-list {
+    flex-grow: 1;
+  }
+  
+  img {
+    width: 92px;
+    height: 32px;
+  }
+  
+  
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+
+  /* list item */
+  
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+  }
+/* listitem hover change*/
+  .list-item:hover{
+background-color: #f5b6ec;
+color:#ba0cc5;
+font-weight: 800;
+font-size: 22px;
+cursor: pointer;
+  }
+  
+  .logo{
+    cursor: pointer;
+  }
+  
+  .button-navabr {
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+  
+  .hero {
+    background-image: url("./Assets/images/image1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 88.5vh;
+    text-align: center;
+  }
+  /* hero main heading */
+
+  .hero-main-heading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+  }
+   /* hero description */
+
+  .hero-description {
+    font-family: "Poppins";
+    font-style: normal;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .button-large {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
